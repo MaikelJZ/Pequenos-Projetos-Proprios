@@ -1,0 +1,130 @@
+
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      
+      margin: 0;
+      background-image: linear-gradient(rgb(32, 1, 1), rgb(77, 1, 1));
+    }
+
+    .counter {
+      text-align: center;
+      background-image: linear-gradient(rgb(131, 117, 117), rgb(3, 38, 41));
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 4px 4px 10px rgb(0, 0, 0);
+      height: 30vh;
+      width: 50vh;
+      order: 0;
+    }
+
+    .time {
+      font-size: 2.5rem;
+      margin: 10px 0;
+      color: white;
+    }
+
+    .titulo{
+      color: white;
+      order: 1;
+      position: absolute;
+      top: 80vh;
+      font-size: 200px;
+      
+    }
+
+    img{
+      width: 800x;
+      height: 500px;
+    }
+    h2{
+      color: white;
+      text-align: center;
+      
+    }
+
+    .container1 {
+        height: 100vh;
+        width: 100vh;
+        position: absolute;
+        bottom: 20vh;
+        left: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 70vh;
+        left: 50vh;
+        
+    }
+    
+    .container2 {
+        height: 100vh;
+        width: 100vh;
+        position: absolute;
+        bottom: 20vh;
+        left: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 110vh;
+        left: 50vh;
+    }
+
+    .container3 {
+        height: 100vh;
+        width: 100vh;
+        position: absolute;
+        bottom: 20vh;
+        left: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 170vh;
+        left: 50vh;
+    }
+
+    .item{
+margin: 20px;
+    }
+
+    .praia{
+      font-size: 22px;
+    }
+
+    .viagem{
+        position: absolute;
+        display: flex;
+        align-items: center;
+       
+      top: 185vh;
+      font-size: 100px;
+    }
+ 
+    h3{
+      position: absolute;
+      top: 75VH;
+      font-size: 30px;
+    }
+
+    .carta{
+      position: absolute;
+      background-color: white;
+      height: 60px;
+      width: 310px;
+      border-radius: 10px;
+      top: 75vh;
+      left: 40vh;
+     
+      
+      font-size: 30px;
+      cursor: pointer;
+    }
+   
+
